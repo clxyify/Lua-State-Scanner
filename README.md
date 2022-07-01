@@ -14,6 +14,10 @@ I did not make this scanner, someone named *asdf* developed it back in 2020- the
 
 The `rbx_gettop` was developed/modified by fishy-sticks on github. It was used for a test reference.
 
+Sometimes it works, sometimes it doesn't. This was testing and it worked on some of the functions.
+
+Functions must be a ```uintptr_t``` type that returns the result of the value, in std:: terms as well.
+
 # Tutorial
 
 Go to the function `ScriptContextVFT` and only replace the address, dont replace the code after that.
